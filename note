@@ -1,0 +1,12 @@
+git checkout -b feacher origin/master
+git push -u origin feacherB:feacherbee
+git push origin :topic
+git log featureA..origin/featureA
+git merge origin/featureA
+git request-pull origin/master myfork
+git pull --rebase
+git rev-list 538c33..d14fc7
+git log -1 --name-only --pretty=format:'' sha1
+git diff-index --cached --name-only HEAD
+SHA^@ 语法会被解析成该提交的所有父提交
+`git rev-list ^#{sha}^@ refs/remotes/#{remote_ref}`
